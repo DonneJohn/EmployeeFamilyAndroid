@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gray_bottom_line"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:text="@string/history_salary"
+        android:textColor="?attr/login_form_hint"
+        android:textSize="@dimen/item_content" />
+
+    <TextView
+        android:id="@+id/tv_item_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/tv_item_name"
+        android:singleLine="false"
+        android:gravity="right"
+        android:textColor="?attr/main_list_item_content"
+        android:textSize="@dimen/item_content" />
+
+
+</RelativeLayout>

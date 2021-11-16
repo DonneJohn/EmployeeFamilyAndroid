@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="?attr/main_list_item_background"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:text="message title"
+        android:textColor="?attr/main_list_item_title"
+        android:textSize="@dimen/login_form_text"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_item_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_item_title"
+        android:layout_toRightOf="@+id/tv_item_title"
+        android:layout_marginLeft="7dp"
+        android:visibility="invisible"
+        android:src="@drawable/align_top"/>
+
+    <TextView
+        android:id="@+id/tv_item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_item_title"
+        android:layout_below="@+id/tv_item_title"
+        android:textSize="@dimen/middle_text_Size"
+        android:textColor="?attr/login_form_hint"
+        android:text="content"/>
+
+
+    <TextView
+        android:id="@+id/tv_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_item_content"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/icon_date"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:text="date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?attr/login_form_hint" />
+
+</RelativeLayout>

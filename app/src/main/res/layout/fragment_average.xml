@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_average_month"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/average_month"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_right_selector"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/label_average_month"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?attr/main_list_item_content" />
+
+    <TextView
+        android:id="@+id/tv_average_history"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/average_history"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_right_selector"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/label_average_history"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?attr/main_list_item_content" />
+
+    <TextView
+        android:id="@+id/tv_average_other"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/average_other"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/icon_next_normal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/label_average_other"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="invisible"
+        android:textColor="?attr/main_list_item_content" />
+</LinearLayout>

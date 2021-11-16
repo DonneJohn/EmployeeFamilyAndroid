@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_background_normal"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="15dp">
+
+        <LinearLayout
+            android:id="@+id/ll_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/yellow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/yellow"
+                android:textColor="?attr/main_list_item_title"
+                android:textSize="@dimen/login_form_text" />
+        </LinearLayout>
+
+        <include layout="@layout/view_horizontal_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_blue_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/blue_green" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/blue_green"
+                android:textColor="?attr/main_list_item_title"
+                android:textSize="@dimen/login_form_text" />
+        </LinearLayout>
+
+        <include layout="@layout/view_horizontal_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/blue"
+                android:textColor="?attr/main_list_item_title"
+                android:textSize="@dimen/login_form_text" />
+        </LinearLayout>
+
+        <include layout="@layout/view_horizontal_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/green" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/green"
+                android:textColor="?attr/main_list_item_title"
+                android:textSize="@dimen/login_form_text" />
+        </LinearLayout>
+
+        <include layout="@layout/view_horizontal_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_grayblack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/gray_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/gray_black"
+                android:textColor="?attr/main_list_item_title"
+                android:textSize="@dimen/login_form_text" />
+        </LinearLayout>
+
+        <include layout="@layout/view_horizontal_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_purple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/purple" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/purple"
+                android:textColor="?attr/main_list_item_title"
+                android:textSize="@dimen/login_form_text" />
+        </LinearLayout>
+
+        <include layout="@layout/view_horizontal_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/de_fault" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/de_fault"
+                android:textColor="?attr/main_list_item_title"
+                android:textSize="@dimen/login_form_text" />
+        </LinearLayout>
+
+        <include layout="@layout/view_horizontal_line"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

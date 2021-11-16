@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="principle" format="reference|color" />
+    <attr name="state_bar" format="reference|color" />
+    <attr name="action_bar_text" format="reference|color" />
+    <attr name="hint" format="reference|color" />
+    <attr name="horizontal_divider" format="reference|color" />
+
+    <attr name="tab_item_selected" format="reference|color" />
+    <attr name="tab_item_unselected" format="reference|color" />
+    <attr name="tab_item_underline" format="reference|color" />
+
+    <attr name="list_view_background" format="reference|color" />
+
+    <attr name="main_list_item_title" format="reference|color" />
+    <attr name="main_list_item_content" format="reference|color" />
+    <attr name="main_list_item_time" format="reference|color" />
+    <attr name="main_list_item_background" format="reference" />
+    <attr name="main_list_item_comment_count" format="reference|color" />
+
+
+
+    <attr name="login_background" format="color" />
+    <attr name="login_form_username" format="color" />
+    <attr name="login_form_password" format="color" />
+    <attr name="login_form_hint" format="color" />
+    <attr name="login_form_error" format="color" />
+    <attr name="login_text" format="color" />
+
+    <attr name="dialog_background" format="color" />
+    <attr name="dialog_opinion_background" format="reference" />
+    <attr name="dialog_text" format="color" />
+
+    <attr name="func_loading_text" format="reference|color" />
+    <attr name="refresh_progress_background" format="reference|color" />
+
+    <attr name="user_home_username" format="color" />
+    <attr name="user_home_blow_background" format="color" />
+
+    <attr name="notice_title_back" format="reference" />
+    <attr name="color_background_normal" format="reference|color" />
+
+    <attr name="user_information_left_text" format="color" />
+    <attr name="user_information_right_text" format="color" />
+
+    <attr name="shape_button_rectangle" format="reference"/>
+
+
+</resources>

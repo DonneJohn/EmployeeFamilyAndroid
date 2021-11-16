@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">员工的家</string>
+    <string name="main_tab_announcement">公告</string>
+    <string name="main_tab_average">工资</string>
+    <string name="main_tab_application">应用</string>
+    <string name="main_tab_me">我的</string>
+    <string name="label_notice">公告</string>
+    <string name="label_notice_tip">查询最新公告信息</string>
+    <string name="label_culture">企业文化</string>
+    <string name="label_culture_tip">查询公司企业文化</string>
+    <string name="label_rule">规章制度</string>
+    <string name="label_rule_tip">了解公司规章制度</string>
+    <string name="label_vote">在线调查</string>
+    <string name="label_vote_tip">填写调查报告</string>
+    <string name="label_contact">通讯录</string>
+    <string name="label_contact_tip">查看同事信息</string>
+
+    <string name="please_input_your_phone">请输入手机号</string>
+    <string name="please_input_message_code">请输入手机号验证码</string>
+    <string name="please_input_your_id">请输入身份证号码</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="save">保存</string>
+    <string name="remember_pass">记住密码</string>
+    <string name="forget_pass">忘记密码？</string>
+    <string name="label_single_selection">单选</string>
+    <string name="label_in_voting">%s 投票进行中</string>
+    <string name="btn_submit">提交</string>
+    <string name="label_average_month">当月查询</string>
+    <string name="label_average_history">历史查询</string>
+    <string name="label_average_other">其他查询</string>
+
+    <string name="search">搜索</string>
+    <string name="please_input_your_notile">请输入公告标题/关键字</string>
+    <string name="fix_pass">修改账户密码</string>
+    <string name="share_to_my_friend">分享给我的朋友</string>
+    <string name="logout">退出登录</string>
+    <string name="action_settings">设置</string>
+    <string name="theme_change">主题切换</string>
+    <string name="yellow">黄色</string>
+    <string name="blue_green">蓝绿</string>
+    <string name="blue">蓝色</string>
+    <string name="green">绿色</string>
+    <string name="gray_black">灰黑</string>
+    <string name="purple">紫色</string>
+    <string name="de_fault">默认</string>
+
+    <string name="old_pass">旧密码</string>
+    <string name="please_input_oldpassword">请输入原密码</string>
+    <string name="new_pass">新密码</string>
+    <string name="please_input_newpassword">请输入新密码</string>
+    <string name="reinput">确认新密码</string>
+    <string name="please_reinput_newpassword">请输入确认新密码</string>
+    <string name="confirm">确定</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="next_step">下一步</string>
+
+    <string name="choice_year">选择年份</string>
+    <string name="choice_month">日期选择</string>
+    <string name="year_choice">年份选择</string>
+
+    <string name="month_detail">本月明细</string>
+    <string name="history_salary">历史工资</string>
+
+
+</resources>

@@ -1,0 +1,188 @@
+<resources>
+
+    <!--=================Base Theme====================-->
+    <!--坑!请在application设置这个主题,否则在运行时设置,windowActionBar和windowNotTitle将会无效-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:textColorPrimary">@color/app_mainTextColor</item>
+        <item name="android:textColorSecondary">@color/app_mainTextColor</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+
+        <!--  抽取出来的公有
+
+        部分-->
+
+        <item name="android:listDivider">@color/default_divider</item>
+        <item name="hint">@color/default_hint</item>
+        <item name="horizontal_divider">@color/default_divider</item>
+        <item name="action_bar_text">@color/default_action_bar_text</item>
+
+        <item name="tab_item_selected">@color/default_tab_item_selected</item>
+        <item name="tab_item_unselected">@color/default_tab_item_unselected</item>
+        <item name="tab_item_underline">@color/default_tab_item_underline</item>
+        <item name="list_view_background">@color/default_list_item_background</item>
+
+        <item name="main_list_item_title">@color/default_main_list_item_title</item>
+        <item name="main_list_item_content">@color/default_main_list_item_title</item>
+        <item name="main_list_item_time">@color/default_main_list_item_title</item>
+        <item name="main_list_item_background">@drawable/selector_light_list_item</item>
+        <item name="main_list_item_comment_count">@color/default_main_list_item_title</item>
+
+        <item name="func_loading_text">@color/default_func_loading_text</item>
+        <item name="refresh_progress_background">@color/default_refresh_progress_background</item>
+
+        <item name="login_background">@color/default_login_background</item>
+        <item name="login_form_username">@color/default_login_form_username</item>
+        <item name="login_form_password">@color/default_login_form_password</item>
+        <item name="login_form_hint">@color/default_login_form_hint</item>
+        <item name="login_form_error">@color/default_login_form_error</item>
+        <item name="login_text">@color/default_login_text</item>
+
+
+
+        <item name="dialog_opinion_background">@drawable/selector_default_opinion_item</item>
+        <item name="dialog_text">@color/default_dialog_text</item>
+
+
+        <item name="user_home_username">@color/default_user_home_username</item>
+        <item name="user_home_blow_background">@color/user_home_blow_background</item>
+
+        <item name="notice_title_back">@color/default_notice_title_back</item>
+        <item name="color_background_normal">@color/default_color_background_normal</item>
+        <item name="user_information_left_text">@color/default_user_information_left_text</item>
+        <item name="user_information_right_text">@color/default_user_information_right_text</item>
+
+
+    </style>
+
+    <!--==================default theme==================-->
+    <style name="DefaultTheme.Base" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/default_principle</item>
+        <item name="colorPrimaryDark">@color/default_state_bar</item>
+
+
+        <item name="shape_button_rectangle">@drawable/selector_shape_button_rectangle_default</item>
+
+    </style>
+
+    <!--==================yellow theme==================-->
+
+    <style name="YellowTheme.Base" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/yellow_principle</item>
+        <item name="colorPrimaryDark">@color/yellow_state_bar</item>
+
+
+        <item name="shape_button_rectangle">@drawable/selector_shape_button_rectangle_yellow</item>
+
+    </style>
+
+    <!--==================blueGreen theme==================-->
+
+    <style name="BlueGreenTheme.Base" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/bluegreen_principle</item>
+        <item name="colorPrimaryDark">@color/bluegreen_state_bar</item>
+
+
+        <item name="shape_button_rectangle">@drawable/selector_shape_button_rectangle_bg</item>
+
+    </style>
+
+    <!--==================blue theme==================-->
+
+    <style name="BlueTheme.Base" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/blue_principle</item>
+        <item name="colorPrimaryDark">@color/blue_state_bar</item>
+
+
+        <item name="shape_button_rectangle">@drawable/selector_shape_button_rectangle_blue</item>
+
+    </style>
+
+    <!--==================green theme==================-->
+
+    <style name="GreenTheme.Base" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/green_principle</item>
+        <item name="colorPrimaryDark">@color/green_state_bar</item>
+
+
+        <item name="shape_button_rectangle">@drawable/selector_shape_button_rectangle_green</item>
+
+    </style>
+
+    <!--==================GrayBlackTheme ==================-->
+
+    <style name="GrayBlackTheme.Base" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/grayblack_principle</item>
+        <item name="colorPrimaryDark">@color/grayblack_state_bar</item>
+
+
+        <item name="shape_button_rectangle">@drawable/selector_shape_button_rectangle_grayblack</item>
+
+    </style>
+
+    <!--==================PurpleTheme ==================-->
+
+    <style name="PurpleTheme.Base" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/purple_principle</item>
+        <item name="colorPrimaryDark">@color/purple_state_bar</item>
+
+
+        <item name="shape_button_rectangle">@drawable/selector_shape_button_rectangle_purple</item>
+
+    </style>
+
+    <style name="RedTheme.Base" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/red_principle</item>
+        <item name="colorPrimaryDark">@color/red_state_bar</item>
+
+
+        <item name="shape_button_rectangle">@drawable/selector_shape_button_rectangle_red</item>
+
+    </style>
+
+    <style name="DefaultTheme" parent="DefaultTheme.Base"/>
+
+
+    <style name="YellowTheme" parent="YellowTheme.Base"/>
+
+    <style name="BlueGreenTheme" parent="BlueGreenTheme.Base"/>
+    <style name="BlueTheme" parent="BlueTheme.Base"/>
+    <style name="GreenTheme" parent="GreenTheme.Base"/>
+    <style name="GrayBlackTheme" parent="GrayBlackTheme.Base"/>
+    <style name="PurpleTheme" parent="PurpleTheme.Base"/>
+    <style name="RedTheme" parent="RedTheme.Base"/>
+
+
+    <!--activity动画-->
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_activity_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_activity_over</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_activity_open_exit</item>
+    </style>
+
+    <!-- 加载滚动条样式 -->
+    <style name="loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_loading</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+    <style name="BaseDialog" parent="Base.Animation.AppCompat.Dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/dialog_background</item>
+        <item name="android:textColor">?attr/dialog_text</item>
+    </style>
+
+
+</resources>

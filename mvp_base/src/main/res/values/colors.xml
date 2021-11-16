@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--base color setting-->
+
+    <color name="yellow">#F2C400</color>
+    <color name="yellow_state_barcolor">#88F2C400</color>
+
+    <color name="bluegreen">#27C2A1</color>
+    <color name="bluegreen_state_barcolor">#8827C2A1</color>
+
+    <color name="blue">#0095CE</color>
+    <color name="blue_state_barcolor">#880095CE</color>
+
+    <color name="green">#3FBB65</color>
+    <color name="green_state_barcolor">#883FBB65</color>
+
+    <color name="grayblack">#363636</color>
+    <color name="grayblack_state_barcolor">#88363636</color>
+
+    <color name="purple">#944EA6</color>
+    <color name="purple_state_barcolor">#88944EA6</color>
+
+    <color name="red">#E84C3D</color>
+    <color name="red_state_barcolor">#88E84C3D</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="app_default_color">#F85932</color>
+    <color name="state_barcolor">#88F85932</color>
+    <color name="app_mainTextColor">#ffffff</color>
+
+    <!-- swipe refresh color -->
+    <color name="swipe_refresh_first">#ff00ddff</color>
+    <color name="swipe_refresh_second">#ffffbb33</color>
+    <color name="swipe_refresh_third">#ffff4444</color>
+    <color name="swipe_refresh_four">#ffaa66cc</color>
+
+    <!--other widget setting-->
+    <color name="dot_selected">@color/app_default_color</color>
+    <color name="dot_unselected">#ebfaeb</color>
+
+    <color name="normal_text">#585858</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--====================the default theme color set=======================-->
+    <color name="default_principle">@color/app_default_color</color>
+    <color name="default_state_bar">@color/state_barcolor</color>
+    <color name="default_action_bar_text">#FFFFFF</color>
+    <color name="default_hint">#EEE</color>
+    <color name="default_divider">#C7C7C7</color>
+
+    <color name="default_tab_item_selected">#FFFFFF</color>
+    <color name="default_tab_item_unselected">#6E6E6E</color>
+    <color name="default_tab_item_underline">#EBFAEB</color>
+
+    <color name="default_list_item_background">#F3F3F3</color>
+
+    <color name="default_main_list_item_title">#535353</color>
+    <color name="default_main_list_item_content">#999</color>
+    <color name="default_main_list_item_time">#999</color>
+    <color name="default_main_list_item_unselected">#FFFFFF</color>
+    <color name="default_main_list_item_selected">#f4f4f4</color>
+    <color name="default_main_list_item_ripple">#E4E4E4</color>
+    <color name="default_main_list_item_comment_count">#999</color>
+
+    <color name="default_func_loading_text">#666</color>
+    <color name="default_refresh_progress_background">#FFFFFF</color>
+
+    <color name="default_login_background">#FFFFFF</color>
+    <color name="default_login_form_username">#000</color>
+    <color name="default_login_form_password">#000</color>
+    <color name="default_login_form_hint">#BBBBBB</color>
+    <color name="default_login_form_error">#FF0000</color>
+    <color name="default_login_text">#000</color>
+
+    <color name="default_dialog_option_unselected">#FFF</color>
+    <color name="default_dialog_opinion_selected">#EEE</color>
+    <color name="default_dialog_opinion_ripple">#E4E4E4</color>
+    <color name="default_dialog_text">#000</color>
+
+    <color name="default_user_home_username">#FFF</color>
+    <color name="user_home_blow_background">#ececec</color>
+
+    <color name="default_notice_title_back">#FAFAFA</color>
+    <color name="default_color_background_normal">#F2F2F2</color>
+    <color name="default_user_information_left_text">#6F6F6F</color>
+    <color name="default_user_information_right_text">#363636</color>
+
+
+    <!--====================the yellow theme color set=======================-->
+    <color name="yellow_principle">@color/yellow</color>
+    <color name="yellow_state_bar">@color/yellow_state_barcolor</color>
+
+    <!--====================the bluegreen theme color set=======================-->
+    <color name="bluegreen_principle">@color/bluegreen</color>
+    <color name="bluegreen_state_bar">@color/bluegreen_state_barcolor</color>
+
+    <!--====================the blue theme color set=======================-->
+    <color name="blue_principle">@color/blue</color>
+    <color name="blue_state_bar">@color/blue_state_barcolor</color>
+
+    <!--====================the green theme color set=======================-->
+    <color name="green_principle">@color/green</color>
+    <color name="green_state_bar">@color/green_state_barcolor</color>
+
+    <!--====================the grayblack theme color set=======================-->
+    <color name="grayblack_principle">@color/grayblack</color>
+    <color name="grayblack_state_bar">@color/grayblack_state_barcolor</color>
+
+
+    <!--====================the grayblack theme color set=======================-->
+    <color name="purple_principle">@color/purple</color>
+    <color name="purple_state_bar">@color/purple_state_barcolor</color>
+
+    <color name="red_principle">@color/red</color>
+    <color name="red_state_bar">@color/red_state_barcolor</color>
+
+
+
+
+
+
+</resources>

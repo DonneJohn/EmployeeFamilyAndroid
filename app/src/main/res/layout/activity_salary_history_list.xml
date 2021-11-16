@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_background_normal"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_choice_year"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/choice_year"-->
+        <!--android:padding="15dp"-->
+        <!--android:drawableRight="@drawable/arrow_right_selector"-->
+        <!--android:textColor="?attr/main_list_item_content"-->
+        <!--android:textSize="@dimen/item_content"-->
+        <!--android:background="@drawable/gray_bottom_line"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/login_form_hint"
+        android:text="@string/choice_month"
+        android:textSize="@dimen/item_time"/>
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

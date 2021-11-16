@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_background_normal"
+    android:orientation="vertical"
+    tools:context="com.exmobile.employeefamilyandroid.ui.activity.NoticeDetailActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroller_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="20dp"
+                android:background="?attr/notice_title_back"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_notice_detail_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:text="title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/item_title"
+                    android:textColor="?attr/main_list_item_title" />
+
+                <ImageView
+                    android:id="@+id/iv_item_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:visibility="invisible"
+                    android:src="@drawable/align_top"/>
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/main_list_item_background"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/tv_notice_detail_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="date"
+                    android:textSize="@dimen/item_time"
+                    android:textColor="?attr/main_list_item_time" />
+
+
+                <TextView
+                    android:id="@+id/tv_notice_detail_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_notice_detail_date"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:text="content"
+                    android:textColor="?attr/main_list_item_content"
+                    android:textSize="@dimen/item_content" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

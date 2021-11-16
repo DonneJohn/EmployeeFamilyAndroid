@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_top_bottom_line"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="1dp">
+
+        <RelativeLayout
+            android:id="@+id/layout_application_notice"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/gray_bottom_line_selector"
+            android:clickable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_application_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/notice" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/iv_application_notice"
+                android:layout_toRightOf="@+id/iv_application_notice"
+                android:text="@string/label_notice"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="?attr/main_list_item_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/iv_application_notice"
+                android:layout_toRightOf="@+id/iv_application_notice"
+                android:text="@string/label_notice_tip"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/gray"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_next_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_application_culture"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/gray_bottom_line_selector"
+            android:clickable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_application_culture"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/culture" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/iv_application_culture"
+                android:layout_toRightOf="@+id/iv_application_culture"
+                android:text="@string/label_culture"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="?attr/main_list_item_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/iv_application_culture"
+                android:layout_toRightOf="@+id/iv_application_culture"
+                android:text="@string/label_culture_tip"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/gray"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_next_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_application_rule"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/gray_bottom_line_selector"
+            android:clickable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_application_rule"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/rule" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/iv_application_rule"
+                android:layout_toRightOf="@+id/iv_application_rule"
+                android:text="@string/label_rule"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="?attr/main_list_item_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/iv_application_rule"
+                android:layout_toRightOf="@+id/iv_application_rule"
+                android:text="@string/label_rule_tip"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/gray"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_next_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_application_vote"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/gray_bottom_line_selector"
+            android:clickable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_application_vote"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/vote" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/iv_application_vote"
+                android:layout_toRightOf="@+id/iv_application_vote"
+                android:text="@string/label_vote"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="?attr/main_list_item_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/iv_application_vote"
+                android:layout_toRightOf="@+id/iv_application_vote"
+                android:text="@string/label_vote_tip"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/gray"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_next_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_application_contact"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/gray_bottom_line_selector"
+            android:clickable="true"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_application_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/contact" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/iv_application_contact"
+                android:layout_toRightOf="@+id/iv_application_contact"
+                android:text="@string/label_contact"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/iv_application_contact"
+                android:layout_toRightOf="@+id/iv_application_contact"
+                android:text="@string/label_contact_tip"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/gray"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_next_normal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
